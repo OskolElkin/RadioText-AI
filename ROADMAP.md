@@ -2,6 +2,18 @@
 
 Status: 0.2.0 Test. Documentation reviewed 2026-10-31. Checked items require existing source or recorded evidence; unchecked items are future work, not promises of dates or outcomes. This package does not authorize code changes, new scans, builds or publication.
 
+## 0. Publication, rights and privacy gates
+
+All items below remain open. This documentation correction does not repair or certify application behavior.
+
+- [ ] Identify the responsible operator, contact and actual processing/jurisdictions; finalize the privacy notice, lawful bases, rights/incident procedures, retention and any required notices, localization or transfer arrangements before recruiting testers or collecting personal feedback.
+- [ ] Establish an appropriate private reporting process; keep present public contributions limited to non-personal documentation.
+- [ ] Record the legal basis/permission and source terms for each intended stream, capture, transcription, sample, contest-data import and redistribution use. A working official link or accessibility goal is not evidence that every use is authorized.
+- [ ] Inventory application dependencies, native binaries and bundled model versions/licenses; check packaged LICENSE/NOTICE, attribution and modification obligations before any binary/source distribution. Verify rights to contributed material and station branding.
+- [ ] Confirm ownership and appropriate licenses for public documentation and any future application distribution; public GitHub visibility is not a blanket license.
+- [ ] Verify every active contest against current organizer rules, dates, age/location/entry conditions and any cost; keep source verification distinct from detector confidence and permission to participate.
+- [ ] Obtain an owner/legal review of actual target markets and release claims. Do not label the project fully compliant, certified accessible or ready for public beta while these gates remain unresolved.
+
 ## 1. Security and release blockers
 
 - [ ] Triage the supplied APKLint findings and obtain the actual completed Ostorlab #219340 report. No Ostorlab findings are inferred from an unfinished/missing report.

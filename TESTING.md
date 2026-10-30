@@ -94,8 +94,26 @@ Known wording issue from source review: `RecordedAudioSource` still says “spea
 | FOREGROUND_SERVICE_MEDIA_PROJECTION | Capture service type | Correct system consent and revoked-grant handling |
 | MediaProjection system grant | Permission to capture source-permitted device playback | Fresh consent where required; never bypass source restrictions |
 
+## Rights and privacy acceptance gates — not yet passed
+
+This is a documentation review checklist, not a completed legal audit or an implemented application control. Existing technical tests do not establish legal permission.
+
+| Gate | Evidence required before the relevant activity |
+|---|---|
+| Personal feedback/recruitment | Named operator/contact; defined purpose, minimum data, lawful basis, notice, retention, recipients, rights and incident process; jurisdiction and transfer/localization assessment from [PRIVACY.md](PRIVACY.md) |
+| Live/captured test material | Documented permitted use under applicable law and source terms, with permissions/consents where required; no access-control bypass, unpublished personal conversations or unauthorized audio uploads |
+| Contest records/entry | Current official rules, organizer and destination, dates/timezone, age/location, fees and method; verification date/provenance and expiry; no assurance of eligibility or organizer acceptance |
+| Models and dependencies | Exact distributed component/version inventory; applicable licenses, required license/NOTICE/attribution and modification notices checked inside the eventual artifact |
+| Public distribution | Separate owner authorization plus resolved security/privacy/signing/store and rights gates; public documentation alone does not authorize a binary release |
+
+The official [Vosk model list](https://alphacephei.com/vosk/models) identifies small English 0.15 and small Russian 0.22 as Apache-2.0; it does not license radio content or prove all packaged dependencies are compliant. Check the [Apache-2.0 redistribution conditions](https://www.apache.org/licenses/LICENSE-2.0.html), including the license, retained notices and any applicable NOTICE content. Its trademark clause does not grant a general branding license. No complete packaged-notice audit was performed here.
+
+The [Canadian Copyright Act](https://laws-lois.justice.gc.ca/eng/acts/C-42/FullText.html) separately addresses broadcaster/recording rights and conditional exceptions. No blanket personal-use or accessibility exception is asserted for this application's capture, captions or redistribution, in Canada or elsewhere. Obtain an assessment of the actual use and applicable jurisdiction.
+
+Synthetic material is preferred, but still check its text, voice/service terms and sharing rights. Label fixtures clearly. These sources were consulted for this correction; no broadcaster permission, legal opinion or new device test is implied.
+
 ## Feedback and release gate
 
-Use the minimal redacted template in [CONTRIBUTING.md](CONTRIBUTING.md). Testing is voluntary; do not ask for hearing diagnoses, real contest entry, payment, bank details or unconsented recordings. Keep private artifacts out of public scanners or share links unless specifically authorized.
+The template in [CONTRIBUTING.md](CONTRIBUTING.md) is for future arranged tests only after the privacy-intake gates above are resolved. Testing is voluntary; do not ask for hearing diagnoses, real contest entry, payment, bank details or unconsented recordings. Keep private artifacts out of public scanners or share links unless specifically authorized.
 
 A future public beta needs resolved security/signing/SDK/privacy gates, recorded device/accessibility results and explicit owner publication approval. Neither this plan nor past host successes authorize distribution. See [ROADMAP.md](ROADMAP.md).

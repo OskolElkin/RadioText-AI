@@ -4,6 +4,33 @@
 
 Before public distribution, the owner must confirm the responsible operator/contact, applicable jurisdictions, participant age arrangements, retention/feedback procedures and any store disclosures. No unverified legal identity, address or contact is supplied here.
 
+## Current intake status and prerequisites
+
+This public repository is not a feedback-data intake form. Do not post histories, recordings, diagnostic bundles, personal screenshots, contact details, disability/health information or identifying third-party speech in public issues or pull requests. Public GitHub activity exposes account identifiers and contribution text under GitHub's own policies; project maintainers can also receive and retain contributions. "Local recognition" does not describe that separate processing.
+
+**Do not begin wider tester recruitment or project collection of personal feedback until the owner establishes:**
+
+- The responsible person/entity, a working private contact and the countries/activities covered.
+- Each purpose, data category, necessity and applicable lawful basis; meaningful consent where required, including a withdrawal process where applicable. Android permission is not a complete legal basis or privacy notice.
+- Recipients/processors, hosting and transfer destinations, access safeguards, retention periods and deletion handling, including copies in issue/email systems.
+- A usable process for access/correction/deletion and other applicable rights, incident handling and any required regulator notices, localization or transfer arrangements.
+- Age eligibility and any required guardian arrangements before involving minors; there is no current child-testing recruitment program.
+
+These are unresolved project gates, not a statement that the software enforces an intake block. Do not send personal data merely to ask for a contact. Non-personal documentation corrections may use the public repository.
+
+## Jurisdiction review — unresolved
+
+Applicable law depends on the operator, actual processing, users, locations and activities. A country filter or station's country does not decide applicability. This draft makes no declaration of compliance with any national law.
+
+| Review area | Required owner/legal determination |
+|---|---|
+| Russia | Assess 152-FZ applicability and current requirements for notices, lawful bases, security, retention, localization and cross-border processing before collecting tester data. The [Ministry's published text](https://mintrud.gov.ru/docs/laws/130) is a starting reference, not a verified current consolidated 2026 edition; confirm subsequent amendments and regulator procedures. |
+| Belarus and Kazakhstan | Obtain current official texts and assess operator duties, grounds for processing and transfer/localization rules where applicable. The Belarus authority site was unavailable during this check; the [Kazakhstan official legal portal](https://adilet.zan.kz/rus/docs/Z1300000094) required JavaScript. Neither jurisdiction is cleared by this review. |
+| Canada | Determine whether federal PIPEDA, provincial laws or other rules apply to the actual activity. The [Canadian privacy regulator](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/) explains commercial-activity scope and provincial distinctions; a Canadian registry entry alone is insufficient. |
+| EU/EEA, if relevant | Assess GDPR material/territorial scope, including establishment, offering services or monitoring criteria; mere worldwide page availability does not settle applicability. See [GDPR Articles 2–3](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02016R0679-20160504). Other destinations need their own assessment. |
+
+References identify review topics, not legal approval. Where an official page was inaccessible or not current, verification remains open; no access restriction was bypassed.
+
 ## Audio and recognition
 
 | Input | Source-reviewed behavior | Still requires confirmation |
@@ -16,7 +43,7 @@ Before public distribution, the owner must confirm the responsible operator/cont
 
 Microphone recognition is designed to operate without internet because the models are bundled. This does not mean the whole application works offline: new station searches, live internet radio, destination checks and external pages need network access. Existing local history/catalog data can be read without fetching a feed; device-level airplane-mode validation is pending.
 
-The repository also contains optional server/client scaffolding, including `RemoteCaptionSource.kt` and `backend/`. The reviewed `ListeningService` selects local radio or recorded-input sources, not that remote caption class. Those files are not evidence of a deployed cloud service. Enabling a cloud path requires an explicit design, consent and privacy review before use.
+The repository also contains optional server/client scaffolding, including `RemoteCaptionSource.kt` and `backend/`. The reviewed `ListeningService` selects local radio or recorded-input sources, not that remote caption class. Those files are not evidence of a deployed cloud service. Enabling a cloud path requires an explicit design, a lawful-basis and privacy review, any required consent and transfer safeguards before use.
 
 ## Data stored on the phone
 
@@ -56,6 +83,6 @@ Listening uses an ongoing foreground notification with a Stop action; the servic
 
 ## Voluntary feedback and open questions
 
-Use only an owner-approved private contact route. Do not send diagnoses, identity/bank documents, credentials, complete histories, recordings or third-party conversations by default. See [CONTRIBUTING.md](CONTRIBUTING.md) for redaction. The owner's feedback retention, deletion request handling, processors and contact details are **not yet confirmed** and must be agreed before recruiting a wider cohort.
+The template in CONTRIBUTING.md is for future arranged tests after the intake prerequisites above are met. A private route alone does not resolve those prerequisites. Do not send diagnoses, identity/bank documents, credentials, complete histories, recordings or third-party conversations by default. See [CONTRIBUTING.md](CONTRIBUTING.md) for redaction. The owner's feedback retention, deletion request handling, processors and contact details are **not yet confirmed** and must be agreed before recruiting a wider cohort.
 
 Remaining validation includes runtime network observation, effective backup/deletion, notification/clipboard exposure, permission behavior, background stop behavior and dependency data practices. This draft must be updated when those findings or the implementation change; it must not be presented as an approved final policy.

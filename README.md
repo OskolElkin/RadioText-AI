@@ -6,6 +6,14 @@ RadioText AI turns selected radio audio into readable captions and suggests poss
 
 This public repository publishes documentation only. The owner authorized publication of these five documents on 2026-10-31. Application sources, APKs, signing material, private implementation reports and local Git history are not published here. Device acceptance remains incomplete; do not redistribute private project material without separate authorization.
 
+## Publication and rights status
+
+**Documentation publication is not approval to distribute or recruit users for the application.** Wider testing and public APK distribution remain blocked by the unresolved privacy, rights, security and device-validation gates in [ROADMAP.md](ROADMAP.md). The installation steps below describe a future owner-arranged test, not an open download or an invitation to send personal data.
+
+Station and contest names describe registry records; no broadcaster or organizer affiliation, endorsement or license is established by this review. An official URL, a working stream, local-only recognition or an accessibility purpose does not establish permission for every capture, transcript, recording, reuse or redistribution. Check the intended use against applicable law, source terms and relevant rights; obtain permission where required. Do not bypass access controls or geographic restrictions.
+
+No new license is granted by this correction. The public documentation tree has no standalone LICENSE file; privately retained application licensing must not be assumed to cover it. Public GitHub hosting permits platform viewing/forking under GitHub's terms, but is not a blanket redistribution license. The owner must confirm authorship and choose appropriate documentation/application licenses before broader reuse. See [GitHub's licensing guidance](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
+
 ## Implemented capabilities and evidence
 
 | Capability | Implemented scope | Verification limit |
@@ -33,7 +41,7 @@ See source review (retained privately; not published here) and feature details (
 
 ## Trying the test candidate
 
-1. Obtain the APK privately from the owner and verify the supplied SHA-256. Do not use a public mirror.
+1. Only after the owner closes the applicable testing/privacy gates and arranges access, obtain the APK privately and verify its supplied SHA-256. Do not use a public mirror.
 2. `RadioText AI 0.2.0 Test` uses package `ai.radiotext.preview` and can sit beside 0.1.9. It has its own empty local store; it does not migrate old data. Do not uninstall 0.1.9 to install an APK with a different signature. The original signing key is required for an in-place upgrade of the original package.
 3. While stopped, select **English captions** or **Russian captions**, then choose a station/input and press **Start**. Radio needs internet. Microphone recognition is designed to use the bundled model without internet; verify that on your device.
 4. Grant only the permissions required for the chosen mode. Android playback capture additionally needs a system grant and a source that permits capture.
@@ -59,7 +67,7 @@ Read the [preliminary privacy notice](PRIVACY.md). Local processing is not a pro
 
 Accessibility development is planned with voluntary participation by deaf and hard-of-hearing people, accessibility specialists and QA testers. Planned work includes a tested accessibility mode, TalkBack/focus review, text scaling, contrast and clear non-audio states. These are goals, not completed certification or a medical service.
 
-Android developers, speech specialists, QA engineers and volunteers are welcome to discuss improvements with the owner through an authorized private channel. See [CONTRIBUTING.md](CONTRIBUTING.md) and [ROADMAP.md](ROADMAP.md). Core features remain independent of optional developer support; support opens an external website with its own privacy practices.
+Non-personal documentation suggestions are welcome. Recruitment and collection of tester data are not open: the owner must first establish the contact, privacy notice and handling process described in [PRIVACY.md](PRIVACY.md). See [CONTRIBUTING.md](CONTRIBUTING.md) and [ROADMAP.md](ROADMAP.md). Core features remain independent of optional developer support; support opens an external website with its own privacy practices.
 
 ## Project references
 

@@ -2,6 +2,12 @@
 
 RadioText AI 0.2.0 Test is an early testing project. This public repository currently shares documentation only. Contributions are welcome by arrangement with the owner. Access to private project material or a test APK does not authorize reposting it, publishing recordings or redistributing signing material.
 
+## Participation status
+
+At present, contribute only non-personal documentation corrections. The roles and feedback template below describe future arranged work, not open enrollment. Wider testing and collection of personal feedback must wait for the operator/contact, lawful-basis, retention, recipients and rights-handling prerequisites in [PRIVACY.md](PRIVACY.md). Do not submit personal material publicly to request access.
+
+Use original non-personal text or synthetic examples with documented rights. Do not copy broadcaster audio, transcripts, logos, rules or third-party code into contributions without an applicable right to share them. A contribution does not automatically assign copyright or create a new project license; the maintainer must agree on appropriate terms before accepting reusable material.
+
 ## Ways to help
 
 | Participants | Useful contributions |
@@ -39,7 +45,7 @@ Provide only what is needed:
 5. Reproducibility and impact: lost captions, wrong word, inaccessible control, crash, unexpected listening or suspected disclosure.
 6. A short redacted text example or cropped screenshot if voluntarily provided. Label synthetic material clearly. Do not attach complete history or audio by default.
 
-Remove phone numbers, email addresses, names of bystanders, private messages, credentials, verification codes, account/payment data and signed/private access URLs. Diagnostics can include device details or stream URLs; inspect them before sending. Tell the owner whether an attachment may be retained or quoted; public sharing needs separate permission.
+Remove phone numbers, email addresses, names of bystanders, private messages, credentials, verification codes, account/payment data and signed/private access URLs. Diagnostics can include device details or stream URLs; inspect them before sending. Do not attach personal material before the intake prerequisites are met. Any later permitted attachment needs agreed purposes, access and retention; permission to quote does not replace applicable legal obligations.
 
 ## Security reports and review
 
