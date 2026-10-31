@@ -1,5 +1,19 @@
 # RadioText AI
 
+## Public Beta and Development Status
+
+**RadioText AI 0.2.0 Beta** has been published separately as an experimental Android APK.
+
+- [Public Beta Release](https://github.com/OskolElkin/RadioText-AI-Releases/releases/tag/v0.2.0-beta)
+- [itch.io Project Page](https://oskolelkin.itch.io/radiotext-ai)
+- [YouTube Demonstration](https://youtube.com/shorts/X1AaoZd3cdc)
+
+This repository documents the earlier 0.2.0 Test candidate and its development and validation status. It does not contain application source code, signing keys or APK distribution files.
+
+The public beta release does not imply that all previously identified privacy, security, licensing, accessibility or device-validation requirements have been completed. The earlier publication and rights warnings below remain applicable; consult [ROADMAP.md](ROADMAP.md) for outstanding gates.
+
+Please review the published limitations before installing or testing the beta.
+
 **0.2.0 Test — an Android test candidate, not a production or public beta release.**
 
 RadioText AI turns selected radio audio into readable captions and suggests possible contest announcements. It aims to help people follow spoken radio information visually, including deaf and hard-of-hearing listeners. It does not guarantee accurate transcripts, contest eligibility, accepted keywords or prizes.
